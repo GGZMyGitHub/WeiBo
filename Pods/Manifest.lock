@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Alamofire (4.5.0)
+  - Kingfisher (3.10.4)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -24,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - Alamofire
+  - Kingfisher
   - SDWebImage
   - SVProgressHUD
   - SwiftyJSON
@@ -31,10 +33,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 94559346b0fa47a380bd9a8e2666e12046432742
+PODFILE CHECKSUM: 738b96f7485db206d4291423e37577f7a35f6ada
 
 COCOAPODS: 1.2.1

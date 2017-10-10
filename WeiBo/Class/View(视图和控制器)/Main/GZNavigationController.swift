@@ -9,7 +9,7 @@
 import UIKit
 
 class GZNavigationController: UINavigationController {
-
+    
     // 重写 push 方法，所有的 push 动作 都会调用此方法
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
 
@@ -21,6 +21,5 @@ class GZNavigationController: UINavigationController {
         }
 
         super.pushViewController(viewController, animated: true)
-        
     }
 }

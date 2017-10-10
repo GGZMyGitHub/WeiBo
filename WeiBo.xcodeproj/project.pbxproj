@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532477E91F8CD1FB004FBBAF /* GZCycleScrollerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532477E81F8CD1FB004FBBAF /* GZCycleScrollerController.swift */; };
 		53783D101F14C06E0086667B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53783D0F1F14C06E0086667B /* AppDelegate.swift */; };
 		53783D171F14C06E0086667B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53783D161F14C06E0086667B /* Assets.xcassets */; };
 		53783D701F14C3630086667B /* GZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53783D4E1F14C3630086667B /* GZDiscoverViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		532477E81F8CD1FB004FBBAF /* GZCycleScrollerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZCycleScrollerController.swift; sourceTree = "<group>"; };
 		53783D0C1F14C06E0086667B /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53783D0F1F14C06E0086667B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53783D161F14C06E0086667B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		532477E71F8CD1CC004FBBAF /* CycleScroll */ = {
+			isa = PBXGroup;
+			children = (
+				532477E81F8CD1FB004FBBAF /* GZCycleScrollerController.swift */,
+			);
+			path = CycleScroll;
+			sourceTree = "<group>";
+		};
 		53783D031F14C06E0086667B = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				53783D501F14C3630086667B /* GZHomeViewController.swift */,
+				532477E71F8CD1CC004FBBAF /* CycleScroll */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -414,6 +425,7 @@
 				53783D701F14C3630086667B /* GZDiscoverViewController.swift in Sources */,
 				53783DD11F14C60A0086667B /* NSObject+CZRuntime.m in Sources */,
 				53783D721F14C3630086667B /* GZBaseViewController.swift in Sources */,
+				532477E91F8CD1FB004FBBAF /* GZCycleScrollerController.swift in Sources */,
 				53783D751F14C3630086667B /* GZMessageViewController.swift in Sources */,
 				53783DD41F14C60A0086667B /* NSString+CZPath.m in Sources */,
 				53783DD91F14C60A0086667B /* UIView+CZAddition.m in Sources */,
